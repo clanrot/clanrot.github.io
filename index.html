@@ -261,11 +261,17 @@
 			<a href="https://hammer-time.quake1.pl/" target="_blank">HAMMER-TIME</a>
 		</p>
                 <p class="small text-center mt-3">
-			Copyright &copy; 1998-2023 <a href="https://clanrot.org">clanrot.org</a>
+			Copyright &copy; 1998-<span id="yearnow"></span> <a href="https://clanrot.org">clanrot.org</a>
 		</p> 
             </div>
         </footer>
     </div>
+
+    <script>
+	window.addEventListener("load", (event) => {
+		document.querySelector('#yearnow').innerText = new Date().getYear()
+    	});
+    </script>
 </body>
 
 </html>
