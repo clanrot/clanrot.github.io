@@ -24,6 +24,7 @@ nav.navbar {
 #bg {
     background: url(/assets/img/bg1.jpg) center center no-repeat;
     background-size: cover;
+    padding-bottom: 15em;
 }
 
 #descr {
